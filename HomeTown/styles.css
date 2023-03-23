@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+}
+
+#hometown{
+    background-image: url('images/background.jpg');
+    /* opacity: 0.6; */
+    background-size: cover;
+    height: 33%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   
+}
+#hyderabad{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 100px;
+    text-shadow: 2px 2px rgb(185, 38, 38);
+    width: 100%;
+    
+    text-align: center;
+    color: rgb(249, 246, 246);
+    margin-top: 150px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+   
+}
+#heart{
+    height: 400px;
+    /* text-align: center; */
+    text-shadow: 2px 2px 4px rgb(27, 27, 27);
+    color: rgb(238, 231, 231);
+    font-family: 'Forum', cursive;
+    margin-top: 0px;
+    margin-left: 190px;
+    padding-top: 0px;
+}
+.highlights-heading{
+    /* margin-top: 50px; */
+    text-align: center;
+    font-family: 'Forum', cursive;
+    
+    font-size: 45px;
+    margin-bottom: 20px;
+    background-color: pink;
+    border-radius: 20px;
+}
+.highlights{
+    display: flex;
+    justify-content: space-around;
+    
+    border-radius: 70px;
+    align-items: center;
+    margin-top: 20px;
+}
+.section{
+    /* border:2px solid rgb(0, 0, 0); */
+    margin: 20px;
+    padding: 30px;
+    /* border-radius: 20px; */
+    background-color: rgb(232, 246, 245);
+}
+.section-h{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    margin-top: 20px;
+    
+}
+
+.h2-head{
+    margin-top: 10px;
+}
+#section-h1{
+    width:400px;
+    height: 300px;
+    /* border: 2px solid black; */
+    border-radius: 10%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 225, 228);
+    
+}
+
+#section-h2{
+    width:400px;
+    height: 300px;
+    /* border: 2px solid black; */
+    border-radius: 10%;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(204, 237, 237);
+}
+.golconda{
+    margin: 5px auto;
+    width: 90%;
+    height: 60%;
+    border-radius: 50%;
+    border: 7px solid rgb(165, 220, 244);
+}
+
+.biryani{
+    margin: 5px auto;
+    width: 90%;
+    height: 60%;
+    border-radius: 50%;
+    border: 7px solid rgb(246, 192, 192);
+}
+.para{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.hhead{
+    background-color: rgb(191, 191, 250);
+}
+.moreHighlights{
+    display: flex;
+    justify-content: space-around;
+}
+.section-m{
+    width: 150px;
+    height: 150px;
+    /* background-color: pink; */
+    border-radius: 50%;
+    padding: 20px;
+}#section-m1{
+    text-align:center;
+    background-image: url('images/festival.jpg');
+    background-size: cover;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(255, 252, 252);
+    display: flex;
+    opacity: 0.9;
+    flex-direction: column;
+    justify-content: center;
+}
